@@ -1,0 +1,25 @@
+server:
+  port: 80
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      enabled: true
+      routes:
+        - id: login-server-route
+          uri: http://localhost:8081
+          predicates:
+            - Path=/doLogin
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    registry-fetch-interval-seconds: 3 # 网关拉去服务列表的时间缩短
+  instance:
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}

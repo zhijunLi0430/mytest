@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe2240dd-3253-44ae-a886-39882a5bf926" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\maven_work\maven_repository" />
+        <option name="mavenHome" value="E:/Maven/maven_work/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\Maven\maven_work\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="13" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2EQxgTgF5pEiQE7Cd7A76BzIhNp" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-gateway" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\03-openFeign" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bjpowernode" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bjpowernode.domain" />
+      <recent name="com.bjpowernode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\06-gateway" />
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\06-gateway\02-login-service\src\main\java\com\bjpowernode\domain" />
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\04-hystrix\04-feign-project\user-center\src\main\resources" />
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\04-hystrix\04-feign-project" />
+      <recent name="C:\Users\DELL\IdeaProjects\19-springcloud\03-openFeign\eureka-server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="05-admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="04-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientBApplication-1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03-eureka-client-b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.EurekaClientBApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication-1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.EurekaServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8762" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.EurekaServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8763" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="04-eureka-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="01-gateway-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="02-login-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.LoginServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.powernode.OrderServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjpowernode.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderBApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="02-provider-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.powernode.ProviderBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03-teacher-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.powernode.TeacherServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.EurekaClientBApplication-1" />
+      <item itemvalue="Spring Boot.EurekaServerApplication-1" />
+      <item itemvalue="Spring Boot.EurekaServerApplication-2" />
+      <item itemvalue="Spring Boot.ProviderBApplication (1)" />
+      <item itemvalue="Spring Boot.OrderServiceApp" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.LoginServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServerApplication" />
+      <item itemvalue="Spring Boot.TeacherServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayServerApplication" />
+        <item itemvalue="Spring Boot.LoginServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.AdminServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe2240dd-3253-44ae-a886-39882a5bf926" name="Default Changelist" comment="" />
+      <created>1662541721016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662541721016</updated>
+      <workItem from="1662541727388" duration="8911000" />
+      <workItem from="1662603620466" duration="9210000" />
+      <workItem from="1662793759972" duration="8110000" />
+      <workItem from="1662871642447" duration="15686000" />
+      <workItem from="1662964007539" duration="9357000" />
+      <workItem from="1663050137576" duration="6997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1662891200597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1662891200597" />
+    <state x="78" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662617701664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="78" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1662617701664" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1663069995055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1663069995055" />
+    <state x="422" y="222" width="522" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1662546149081">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="222" width="522" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1662546149081" />
+    <state x="342" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1662971255781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="342" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1662971255781" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1662799591448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1662799591448" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1662798958221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1662798958221" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1662970489053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1662970489053" />
+    <state width="1323" height="189" key="GridCell.Tab.0.bottom" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.0.center" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.0.left" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.0.right" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.1.bottom" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.1.center" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.1.left" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="189" key="GridCell.Tab.1.right" timestamp="1662990047338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="189" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1662990047338" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1662645397379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1662645397379" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1662645397379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1662645397379" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1662645397379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1662645397379" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1662645397379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1662645397379" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1662794263082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1662794263082" />
+    <state x="-8" y="93" width="1251" height="569" key="new project wizard" timestamp="1662971199307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-8" y="93" width="1251" height="569" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1662971199307" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1662546077401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1662546077401" />
+  </component>
+</project>

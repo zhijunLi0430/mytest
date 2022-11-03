@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="02-ribbon" />
+        <module name="19-springcloud" />
+        <module name="order-center" />
+        <module name="03-eureka-client-b" />
+        <module name="02-login-service" />
+        <module name="eureka-server1" />
+        <module name="01-eureka" />
+        <module name="common-api" />
+        <module name="02-eureka-client-a" />
+        <module name="01-order-service" />
+        <module name="project-domain" />
+        <module name="04-eureka-service" />
+        <module name="03-teacher-service" />
+        <module name="01-gateway-server" />
+        <module name="02-provider-b" />
+        <module name="02-provider-a" />
+        <module name="05-admin-server" />
+        <module name="04-rent-car-service" />
+        <module name="eureka-server" />
+        <module name="01-eureka-server-c" />
+        <module name="01-eureka-server-b" />
+        <module name="06-gateway" />
+        <module name="02-user-service" />
+        <module name="user-center" />
+        <module name="04-hystrix" />
+        <module name="04-customer" />
+        <module name="03-openFeign" />
+        <module name="01-eureka-server" />
+        <module name="02-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02-provider-b" target="1.8" />
+      <module name="eureka-server1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-eureka-server" options="-parameters" />
+      <module name="01-eureka-server-b" options="-parameters" />
+      <module name="01-eureka-server-c" options="-parameters" />
+      <module name="01-gateway-server" options="-parameters" />
+      <module name="01-order-service" options="-parameters" />
+      <module name="02-consumer" options="-parameters" />
+      <module name="02-eureka-client-a" options="-parameters" />
+      <module name="02-login-service" options="-parameters" />
+      <module name="02-provider-a" options="-parameters" />
+      <module name="02-provider-b" options="-parameters" />
+      <module name="02-user-service" options="-parameters" />
+      <module name="03-eureka-client-b" options="-parameters" />
+      <module name="03-teacher-service" options="-parameters" />
+      <module name="04-customer" options="-parameters" />
+      <module name="04-eureka-service" options="-parameters" />
+      <module name="04-rent-car-service" options="-parameters" />
+      <module name="05-admin-server" options="-parameters" />
+      <module name="common-api" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server1" options="-parameters" />
+      <module name="order-center" options="-parameters" />
+      <module name="project-domain" options="-parameters" />
+      <module name="user-center" options="-parameters" />
+    </option>
+  </component>
+</project>
